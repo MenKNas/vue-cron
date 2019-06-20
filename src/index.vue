@@ -30,11 +30,16 @@
                 vertical-align: middle;
             }
         }
+
+        #lang-btn{
+            display:none !important;
+            opacity:0;
+        }
     }
 </style>
 <template>
     <div id="changeContab">
-        <el-button class="language" type="text" @click="i18n=(i18n==='en'?'cn':'en')">{{i18n}}</el-button>
+        <el-button id="lang-btn" class="language" type="text" @click="i18n=(i18n==='en'?'cn':'en')">{{i18n}}</el-button>
         <el-tabs type="border-card">
             <el-tab-pane>
                 <span slot="label"><i class="el-icon-date"></i> {{text.Seconds.name}}</span>
@@ -268,7 +273,6 @@
             </el-tab-pane>
         </el-tabs>
         <div class="bottom">
-            <span class="value">{{this.cron}}</span>
             <el-button type="primary" @click="change">{{text.Save}}</el-button>
             <el-button type="primary" @click="close">{{text.Close}}</el-button>
         </div>
