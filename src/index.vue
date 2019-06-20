@@ -39,7 +39,7 @@
 </style>
 <template>
     <div id="changeContab">
-        <el-button id="lang-btn" class="language" type="text" @click="i18n=(i18n==='en'?'cn':'en')">{{i18n}}</el-button>
+        <el-button style="display:none" id="lang-btn" class="language" type="text" @click="i18n=(i18n==='en'?'cn':'en')">{{i18n}}</el-button>
         <el-tabs type="border-card">
             <el-tab-pane>
                 <span slot="label"><i class="el-icon-date"></i> {{text.Seconds.name}}</span>
