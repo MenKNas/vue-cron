@@ -4,6 +4,7 @@
             position: absolute;
             right: 25px;
             z-index: 1;
+            display:none !important;
         }
         .el-tabs{
             box-shadow: none;
