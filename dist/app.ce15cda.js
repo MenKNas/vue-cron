@@ -19127,7 +19127,7 @@
                     },
                     attrs: {
                         type: "text",
-                        placeholder: e.currentPlaceholder,
+                        // placeholder: e.currentPlaceholder,
                         name: e.name,
                         id: e.id,
                         size: e.selectSize,
@@ -36334,7 +36334,7 @@ function(e, t, n) {
                         },
                         attrs: {
                             type: "text",
-                            placeholder: e.currentPlaceholder,
+                            // placeholder: e.currentPlaceholder,
                             name: e.name,
                             id: e.id,
                             size: e.selectSize,
