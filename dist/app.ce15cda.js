@@ -19127,7 +19127,7 @@
                     },
                     attrs: {
                         type: "text",
-                        placeholder: e.currentPlaceholder,
+                        // placeholder: e.currentPlaceholder,
                         name: e.name,
                         id: e.id,
                         size: e.selectSize,
@@ -22321,7 +22321,7 @@
                 }), n("input", {
                     staticClass: "el-range-input",
                     attrs: {
-                        placeholder: e.startPlaceholder,
+                        // placeholder: e.startPlaceholder,
                         disabled: e.disabled,
                         id: e.id && e.id[0],
                         readonly: !e.editable || e.readonly,
@@ -36334,7 +36334,7 @@ function(e, t, n) {
                         },
                         attrs: {
                             type: "text",
-                            placeholder: e.currentPlaceholder,
+                            // placeholder: e.currentPlaceholder,
                             name: e.name,
                             id: e.id,
                             size: e.selectSize,

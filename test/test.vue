@@ -15,7 +15,7 @@
     <h1>vue-cron</h1>
     <el-popover v-model="cronPopover">
       <vueCron :data="cron" @change="changeCron" @close="cronPopover=false" i18n="en"></vueCron>
-      <el-input slot="reference" @click="cronPopover=true" v-model="cron" placeholder></el-input>
+      <el-input slot="reference" @click="cronPopover=true" v-model="cron"></el-input>
     </el-popover>
   </div>
 </template>
