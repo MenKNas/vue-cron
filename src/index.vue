@@ -60,7 +60,7 @@
                             {{text.Seconds.interval[2]||''}}
                         </el-radio>
                     </el-row>
-                    <el-row>
+                    <el-row style="opacity:0">
                         <el-radio class="long" v-model="second.cronEvery" label="3">{{text.Seconds.specific}}
                             <el-select size="small" multiple v-model="second.specificSpecific">
                                 <el-option class="specific-sec" v-for="val in 60" :key="$index" :value="val-1">{{val-1}}</el-option>
