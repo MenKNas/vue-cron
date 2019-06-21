@@ -36,9 +36,10 @@
             opacity:0;
         }
 
-        .specific-sec::placeholder{
-            display:none;
+        .el-input--small .el-input__inner::placeholder {
+            opacity: 0 !important;
         }
+
     }
 </style>
 <template>
